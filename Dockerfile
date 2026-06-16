@@ -1,4 +1,5 @@
-FROM windows
+FROM ubuntu:jammy
+FROM ubuntu:22.04
 
 ENV WINDOWS_FRONTEND=noninteractive
 
