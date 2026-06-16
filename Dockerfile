@@ -14,13 +14,7 @@ RUN apt update && apt install -y \
     sudo \
     curl \
     wget \
-    nano \
-    net-tools \
-    policykit-1 \
-    pulseaudio \
-    pulseaudio-utils \
-    wine \
-    wine32*
+    nano*
 
 RUN curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
 
