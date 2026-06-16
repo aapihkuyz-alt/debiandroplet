@@ -1,9 +1,7 @@
 FROM ubuntu:jammy
 FROM ubuntu:22.04
 
-ENV WINDOWS_FRONTEND=noninteractive
-
-RUN wsl --install
+ENV UBUNTU_FRONTEND=noninteractive
 
 RUN dpkg --add-architecture i386
 
