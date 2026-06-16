@@ -1,4 +1,4 @@
-FROM windows:ltsc2022
+FROM windows:latest
 
 ENV WINDOWS_FRONTEND=noninteractive
 
