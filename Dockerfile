@@ -1,4 +1,4 @@
-FROM windows:latest
+FROM windows
 
 ENV WINDOWS_FRONTEND=noninteractive
 
