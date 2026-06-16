@@ -20,8 +20,7 @@ RUN apt update && apt install -y \
     pulseaudio \
     pulseaudio-utils \
     wine \
-    wine32 \
-    firefox-esr*
+    wine32*
 
 RUN curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
 
