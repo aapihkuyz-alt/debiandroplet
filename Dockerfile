@@ -7,15 +7,7 @@ RUN dpkg --add-architecture i386
 
 RUN apt update && apt install -y \
     xrdp \
-    xfce4 \
-    xfce4-goodies \
-    xorg \
-    dbus-x11 \
-    sudo \
-    curl \
-    wget \
-    nano*
-
+    
 RUN curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
 
 RUN sudo apt-get install -y nodejs
