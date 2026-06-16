@@ -1,6 +1,8 @@
 FROM windows:11
 
-ENV DEBIAN_FRONTEND=noninteractive
+ENV WINDOWS_FRONTEND=noninteractive
+
+RUN wsl --install
 
 RUN dpkg --add-architecture i386
 
