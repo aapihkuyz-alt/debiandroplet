@@ -5,9 +5,8 @@ ENV UBUNTU_FRONTEND=noninteractive
 
 RUN dpkg --add-architecture i386
 
-RUN apt update && apt install -y \
-    xrdp \
-    
+RUN apt update && apt install -y xrdp
+
 # Set root password
 RUN echo "root:root" | chpasswd
 
