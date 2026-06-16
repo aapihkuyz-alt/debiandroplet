@@ -1,4 +1,4 @@
-FROM windows:11
+FROM ://microsoft.com
 
 ENV WINDOWS_FRONTEND=noninteractive
 
