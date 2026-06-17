@@ -1,8 +1,6 @@
 FROM debian:bookworm
 
-ENV WINDOWS_FRONTEND=noninteractive
-
-RUN wsl --install
+ENV DEBIAN_FRONTEND=noninteractive
 
 RUN dpkg --add-architecture i386
 
