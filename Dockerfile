@@ -1,4 +1,4 @@
-FROM ://microsoft.com
+FROM debian:bookworm
 
 ENV WINDOWS_FRONTEND=noninteractive
 
